@@ -15,5 +15,5 @@ ENV LANG="ja_JP.UTF-8" \
 RUN \
   localedef -f UTF-8 -i ja_JP ja_JP.UTF-8 && \
   yum install -y ansible && \
-  yum install -y openssh && \
+  yum install -y openssh openssh-clients && \
   true
